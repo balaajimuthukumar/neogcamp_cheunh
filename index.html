@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav id="navigation">
+        <h1>cheunh Language Translator</h1>
+        <small>Type your english in the input section and see the translation in the output</small>
+    </nav>
+    <div class="flexi-container">
+        <textarea id="mylanguageInput" oninput="getValue()" name="mylanguage" id="input" cols="30" rows="10" placeholder="write something here to translate to cheunh language...." ></textarea>
+        <button id="btn-translate">GO!</button>
+        <div id="translator">&nbsp; The Output will be shown here...</div>
+    </div>
+
+
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
