@@ -16,7 +16,7 @@ function getValue(){
 
 //This is an event listener to listen the button(Translate button) click event 
 buttonTranslate.addEventListener("click",function (){
-    let url = "https://api.funtranslations.com/translate/minion.json";
+    let url = "https://api.funtranslations.com/translate/cheunh.json";
     url = url+"?text="+inputvalue;
     translator.innerText = "";
     //The fetch function is asynchronous and waits till
